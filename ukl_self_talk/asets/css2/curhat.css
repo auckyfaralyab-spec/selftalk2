@@ -1,0 +1,106 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+body {
+    background-color: #f8fafc;
+    color: #1e293b;
+}
+
+.curhat-header {
+    background-color: #ffffff;
+    padding: 15px 40px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.btn-kembali {
+    text-decoration: none;
+    color: #0f172a;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+    transition: transform 0.2s ease;
+}
+
+.btn-kembali:hover {
+    transform: translateX(-4px); 
+}
+
+.curhat-header h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #0f172a;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+
+.curhat-container {
+    max-width: 900px;
+    width: 100%;
+    margin: 40px auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.curhat-card {
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 24px; 
+    padding: 24px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    box-shadow: 0 4px 12px rgba(15, 23, 42, 0.01);
+}
+
+.card-meta-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tag-anon {
+    font-size: 11px;
+    font-weight: 700;
+    color: #94a3b8;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.text-tanggal {
+    font-size: 11px;
+    color: #94a3b8;
+    font-weight: 500;
+}
+
+.curhat-isi-text {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #334155;
+    font-weight: 500;
+}
+
+
+@media (max-width: 640px) {
+    .curhat-header {
+        padding: 15px 20px;
+    }
+    .curhat-container {
+        margin: 20px auto;
+    }
+    .curhat-card {
+        padding: 20px;
+        border-radius: 18px; 
+    }
+}

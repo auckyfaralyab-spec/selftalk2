@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #f4f6f9;
+    color: #333;
+    
+    padding-bottom: 120px; 
+}
+
+.container {
+    max-width: 800px; 
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+
+.header-laporan {
+    text-align: center; 
+    margin-bottom: 30px;
+}
+
+.header-laporan h1 {
+    font-size: 28px;
+    color: #1e293b;
+    margin-bottom: 10px;
+}
+
+.header-laporan p {
+    font-size: 14px;
+    color: #64748b;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+
+.kotak-form-lapor {
+    background: #fff;
+    padding: 30px;
+    border-radius: 24px; 
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.02); 
+    margin-bottom: 25px;
+}
+
+
+.row-input {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap; 
+}
+
+.group-input, .pilihan-input {
+    margin-bottom: 20px;
+    flex: 1;
+    min-width: 250px; 
+}
+
+.kotak-form-lapor label {
+    display: block;
+    font-size: 11px;
+    font-weight: 700;
+    color: #64748b;
+    margin-bottom: 8px;
+    letter-spacing: 0.5px;
+}
+
+
+.kotak-form-lapor input[type="text"],
+.kotak-form-lapor input[type="date"],
+.kotak-form-lapor select,
+.kotak-form-lapor textarea {
+    width: 100%;
+    padding: 14px 16px;
+    font-size: 14px;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px; 
+    background-color: #f8fafc; 
+    outline: none;
+    color: #333;
+    transition: all 0.2s ease;
+}
+
+
+.kotak-form-lapor .input-readonly {
+    background-color: #f1f5f9;
+    color: #475569;
+    font-weight: 600;
+    cursor: not-allowed;
+}
+
+.kotak-form-lapor input:focus,
+.kotak-form-lapor select:focus,
+.kotak-form-lapor textarea:focus {
+    border-color: #e3242b;
+    background-color: #fff;
+    box-shadow: 0 0 0 3px rgba(223, 36, 43, 0.1);
+}
+
+.kotak-form-lapor textarea {
+    height: 150px; 
+    resize: none;
+    line-height: 1.6;
+}
+
+
+.btn-kirim-lapor {
+    width: 100%;
+    padding: 16px;
+    background-color: #e3242b;
+    color: #fff;
+    border: none;
+    border-radius: 14px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(223, 36, 43, 0.2); 
+    transition: all 0.2s;
+}
+
+.btn-kirim-lapor:active {
+    transform: scale(0.98); /* efek membal dikit pas diklik */
+    background-color: #b81d22;
+}
+
+.disclaimer {
+    font-size: 10px;
+    color: #94a3b8;
+    text-align: center;
+    margin-top: 20px;
+    letter-spacing: 0.5px;
+}
+
+
+.card-konseling {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 18px 24px;
+    border-radius: 16px;
+    border: 1px solid #e2e8f0;
+    text-decoration: none;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.01);
+    margin-bottom: 40px; 
+}
+
+.isi-card {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.isi-card span {
+    font-size: 14px;
+    color: #334155;
+}
+
+.isi-card b {
+    color: #e3242b;
+}

@@ -1,0 +1,76 @@
+/* --- RESET STYLES --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat',  sans-serif; /* Font modern biar estetik */
+}
+
+/* --- WRAPPER NAVBAR UTAMA --- */
+.navbaratas {
+    display: flex;
+    justify-content: space-between; /* Trik rahasia: Kiri nempel kiri, Kanan nempel kanan */
+    align-items: center;
+    background-color: #ffffff; /* Warna dasar putih bersih */
+    padding: 12px 24px; /* Jarak aman biar gak terlalu mepet ke layar */
+    height: 70px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 999; /* Biar tetep melayang di paling atas pas di-scroll */
+    border-bottom: 1px solid #f1f2f6; /* Garis batas bawah tipis elegan */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03); /* Efek bayangan halus premium */
+}
+
+/* --- SISI KIRI: LOGO & TULISAN --- */
+.nav-kiri .logo-link {
+    display: flex;
+    align-items: center;
+    gap: 12px; /* jarak antara gambar logo dengan tulisan SelfTalk */
+    text-decoration: none; /* Menghilangkan garis bawah pada link */
+    color: inherit;
+}
+
+.nav-kiri .mini-logo {
+    width: 60px;
+    height: 50px;
+    
+}
+
+.nav-kiri .brand-name {
+    font-size: 18px;
+    font-weight: 700; /* Bikin tulisan brand tebal */
+    color: #2d3436; /* Warna abu-abu gelap premium (jangan hitam pekat) */
+    letter-spacing: -0.3px;
+}
+
+/* --- SISI KANAN: TOMBOL PROFIL --- */
+.nav-kanan .profile-button {
+    text-decoration: none; /* Biar buletannya tidak bergaris bawah */
+}
+
+/* Lingkaran Merah Khas Skomda untuk Tempat Inisial Huruf */
+.nav-kanan .user-initial {
+    width: 42px;
+    height: 42px;
+    background-color: #fff0f1; /* Warna pink/merah super soft untuk background */
+    color: #e3242b; /* Huruf inisial warna merah tegas */
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center; /* Huruf otomatis pas di tengah lingkaran */
+    align-items: center;
+    border-radius: 50%; /* Membuat kotak menjadi lingkaran sempurna */
+    border: 2px solid #ffdadc; /* Frame lingkaran tipis */
+    box-shadow: 0 4px 8px rgba(227, 36, 43, 0.08); /* Efek glowing tipis pada inisial */
+    transition: all 0.3s ease; /* Biar pas disentuh ada efek animasi halus */
+}
+
+/* --- EFEK HOVER (PAS PROFIL DIKLIK/DISENTUH) --- */
+.nav-kanan .profile-button:hover .user-initial {
+    transform: scale(1.06); /* Buletannya agak membesar dikit */
+    background-color: #e3242b; /* Kebalikan: Background jadi merah solid */
+    color: #ffffff; /* Hurufnya berubah jadi putih bersih */
+    border-color: #e3242b;
+    box-shadow: 0 6px 16px rgba(227, 36, 43, 0.2);
+}

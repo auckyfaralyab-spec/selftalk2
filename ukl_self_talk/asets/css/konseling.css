@@ -1,0 +1,209 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #f8fafc;
+    min-height: 100vh;
+    padding-bottom: 80px; 
+}
+
+
+.kembali-lapor-container {
+    width: 100%;
+    max-width: 800px;   
+    margin: 40px auto;   
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+
+.back-link {
+    color: #64748b;
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: 600;
+    display: block;     
+    
+    
+    width: 100%;
+    max-width: 800px; 
+    margin: 0 auto 15px auto;   
+    
+    transition: color 0.2s ease;
+}
+
+.back-link:hover {
+    color: #1e293b;
+}
+
+
+.header-konseling {
+    text-align: center;
+    margin-bottom: 25px;
+    width: 100%;
+    max-width: 650px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-konseling img {
+    margin-bottom: 10px;
+}
+
+.header-konseling h1 {
+    font-size: 22px;
+    color: #1e293b;
+    font-weight: 700;
+    margin-bottom: 6px;
+    letter-spacing: -0.5px;
+}
+
+.header-konseling p {
+    font-size: 13px;
+    color: #64748b;
+    line-height: 1.6;
+    font-weight: 500;
+}
+
+
+.alert-catatan {
+    background-color: #fef2f2;
+    border: 1px solid #fee2e2;
+    border-radius: 14px;
+    padding: 15px;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 25px;
+    
+    width: 100%;
+    max-width: 650px; 
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+.alert-catatan img {
+    flex-shrink: 0;
+}
+
+.alert-catatan p {
+    font-size: 12px;
+    color: #991b1b;
+    margin: 0;
+    line-height: 1.6;
+    font-weight: 500;
+}
+
+
+.kotak-form-konseling {
+    background: #ffffff;
+    border-radius: 18px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+    padding: 24px 20px;
+    
+    width: 100%;
+    max-width: 650px; 
+    margin: 0 auto;   
+    box-sizing: border-box;
+}
+
+
+.input {
+    margin-bottom: 18px;
+}
+
+.input label {
+    display: block;
+    font-size: 11px;
+    font-weight: 700;
+    color: #475569;
+    margin-bottom: 8px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+}
+
+
+.input input, 
+.input textarea {
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    font-size: 13px;
+    color: #1e293b;
+    background-color: #f8fafc;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.input input:focus, 
+.input textarea:focus {
+    outline: none;
+    border-color: #cbd5e1;
+    background-color: #ffffff;
+    box-shadow: 0 0 0 4px rgba(241, 245, 249, 0.8);
+}
+
+/* pewarnaan khusus kolom nama& Kelas */
+.input-readonly {
+    background-color: #f1f5f9 !important;
+    color: #94a3b8 !important;
+    border-color: #e2e8f0 !important;
+    cursor: not-allowed;
+    font-weight: 600 !important;
+}
+
+/* mengatur kolom tanggal & waktu biar jajar menyamping */
+.flex-row {
+    display: flex;
+    gap: 15px;
+}
+
+.flex-row .input {
+    flex: 1;
+}
+
+/* kolom curhat (Textarea) */
+.input textarea {
+    resize: none;
+    font-family: inherit;
+    line-height: 1.6;
+}
+
+.input textarea::placeholder {
+    color: #94a3b8;
+}
+
+/* tombol Kirim Jadwal biar hidup */
+.btn-kirim-jadwal {
+    width: 100%;
+    background-color: #dc2626;
+    color: #ffffff;
+    border: none;
+    padding: 14px;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 10px;
+    transition: all 0.2s ease;
+}
+
+.btn-kirim-jadwal:hover {
+    background-color: #b91c1c;
+}
+
+.btn-kirim-jadwal:active {
+    transform: scale(0.98);
+}

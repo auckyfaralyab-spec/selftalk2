@@ -1,0 +1,17 @@
+.img-icon-action {
+    width: 16px;
+    height: 16px;
+    object-fit: contain;
+    display: block;
+}
+
+.count-label {
+    font-size: 12px;
+    font-weight: 700;
+    color: #64748b;
+}
+
+.action-trigger-btn:active {
+    transform: scale(0.95);
+    background-color: #f1f5f9;
+}

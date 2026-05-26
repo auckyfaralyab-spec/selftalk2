@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #FBFBFB;
+    display: flex;
+    justify-content: center;
+    padding: 60px 20px;
+}
+
+.bungkus-luar {
+    width: 100%;
+    max-width: 800px;
+}
+
+.judul-halaman {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.pilihan-akses {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+.kartu-role {
+    background: #bd4f4f;
+    width: 220px;
+    padding: 40px 30px;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.03);
+    transition: 0.3s;
+    border: 1px solid #974848;
+}
+
+.kartu-role:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.07);
+}
+
+.buletan-ikon {
+    width: 90px;
+    height: 90px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.role-guru .buletan-ikon { background-color: #F3EEFF; }
+.role-siswa .buletan-ikon { background-color: #FFEAEE; }
+
+.buletan-ikon img { width: 55px; }
+
+.kartu-role h3 {
+    color: #333;
+    font-size: 18px;
+}
+
+
+/* --- KOTAK KUTIPAN --- */
+.kotak-kutipan {
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+    border: 1.5px solid #FFE4E6;
+    border-radius: 24px;
+    background: white;
+}
+
+.teks-kutipan {
+    font-style: italic;
+    font-size: 18px;
+    color: #4B5563;
+    margin-bottom: 15px !important; /* Force margin agar tidak nempel */
+}
+
+.info-app { text-align: center; }
+.nama-app { font-weight: 700; color: #333; }
+.copyright { font-size: 12px; color: #aaa; }

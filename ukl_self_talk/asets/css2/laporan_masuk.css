@@ -1,0 +1,114 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f8fafc;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: #ffffff;
+    border-bottom: 1px solid #e2e8f0;
+    gap: 15px;
+}
+
+.btn-back {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.btn-back img {
+    width: 22px;
+    height: 22px;
+}
+
+.nav-title {
+    font-size: 20px;
+    color: #1e293b;
+    margin: 0;
+    font-weight: 600;
+}
+
+
+.wrapper-laporan {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    margin-bottom: 20px;
+}
+
+.main-title {
+    font-size: 16px;
+    color: #0f172a;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.title-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    object-fit: contain;
+}
+
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+}
+
+.data-table th {
+    background: #f8fafc;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 2px solid #e2e8f0;
+    color: #475569;
+    font-weight: 600;
+}
+
+.data-table td {
+    padding: 12px;
+    border-bottom: 1px solid #f1f5f9;
+    color: #334155;
+    font-weight: 400;
+}
+
+
+.badge-status {
+    background: #ffedd5;
+    color: #ea580c;
+    padding: 3px 8px;
+    border-radius: 15px;
+    font-weight: 600;
+    font-size: 10px;
+}
+
+.btn-selesai {
+    background: #10b981;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.btn-selesai:hover {
+    background: #059669;
+}

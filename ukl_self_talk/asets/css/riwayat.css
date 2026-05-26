@@ -1,0 +1,222 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #fcfdfe;
+    min-height: 100vh;
+    padding-bottom: 120px;
+    color: #1e293b;
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.header-riwayat h1 {
+    font-size: 24px;
+    color: #0f172a;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-riwayat p {
+    font-size: 13px;
+    color: #64748b;
+    margin-top: 6px;
+    font-weight: 500;
+}
+
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #1e293b;
+    margin-top: 15px;
+}
+
+.riwayat-konten {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+.card-cerita {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    width: 100%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.01);
+}
+
+.card-cerita-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.mood-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.img-mood-status {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+.mood-text-label {
+    font-size: 13px;
+    font-weight: 700;
+    color: #4f46e5;
+}
+
+.card-cerita .waktu {
+    font-size: 12px;
+    color: #94a3b8;
+    font-weight: 500;
+}
+
+.isi-curhat-teks {
+    font-size: 14px;
+    color: #1e293b;
+    line-height: 1.6;
+    font-weight: 600;
+    background: #f8fafc;
+    padding: 16px 20px;
+    border-radius: 12px;
+    border: 1px solid #f1f5f9;
+    width: 100%;
+}
+
+
+.sub-box-balasan-bk {
+    border-top: 1px solid #f1f5f9;
+    padding-top: 14px;
+    margin-top: 4px;
+    width: 100%;
+}
+
+.title-balasan-bk {
+    font-size: 11px;
+    font-weight: 700;
+    color: #64748b;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.teks-balasan-bk {
+    font-size: 13px;
+    color: #1e293b;
+    line-height: 1.6;
+    font-weight: 500;
+}
+
+.teks-balasan-kosong {
+    font-size: 12px;
+    color: #94a3b8;
+    font-style: italic;
+    font-weight: 500;
+}
+
+
+.card-laporan {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    padding: 20px 24px;
+    width: 100%;
+}
+
+.info-lapor h4 {
+    font-size: 15px;
+    color: #0f172a;
+    font-weight: 700;
+}
+
+.info-lapor p {
+    font-size: 13px;
+    color: #4f46e5;
+    font-weight: 600;
+    margin: 6px 0 4px 0;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.info-lapor span {
+    font-size: 12px;
+    color: #94a3b8;
+    font-weight: 500;
+}
+
+
+.badge-status {
+    font-size: 10px;
+    font-weight: 800;
+    padding: 6px 14px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.badge-status.menunggu {
+    background-color: #fef3c7;
+    color: #d97706;
+}
+
+.badge-status.proses {
+    background-color: #e0e7ff;
+    color: #4f46e5;
+}
+
+.badge-status.selesai {
+    background-color: #dcfce7;
+    color: #15803d;
+}
+
+
+.pesan-kosong {
+    font-size: 13px;
+    color: #94a3b8;
+    font-style: italic;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px dashed #cbd5e1;
+    text-align: center;
+    font-weight: 500;
+    width: 100%;
+}

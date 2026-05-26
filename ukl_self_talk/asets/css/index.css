@@ -1,0 +1,218 @@
+/* --- DASAR & FONT --- */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #FFFAFA; 
+    color: #1F2937;
+    overflow-x: hidden;
+}
+
+
+.halaman-hero {
+    text-align: center;
+    padding: 120px 20px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.label {
+    background: #FFE4E6;
+    color: #E11D48;
+    padding: 6px 18px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.judul {
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 1.1;
+    letter-spacing: -1.5px;
+    margin-bottom: 24px;
+}
+
+.teks-merah {
+    color: #E11D48;
+}
+
+.sub-judul {
+    max-width: 650px;
+    color: #4B5563;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.tombol-masuk {
+    display: inline-block;
+    background-color: #E11D48;
+    color: white;
+    padding: 16px 36px;
+    text-decoration: none;
+    border-radius: 12px;
+    font-weight: 700;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 15px rgba(225, 29, 72, 0.3);
+}
+
+.tombol-masuk:hover {
+    background-color: #BE123C;
+    transform: translateY(-3px);
+}
+
+
+
+
+.halaman-fitur {
+    padding: 40px 5% 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px; 
+}
+
+
+.wadah-kartu {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+
+.ikon-kartu {
+    font-size: 32px;
+    margin-bottom: 30px;
+    display: block; 
+}
+
+
+.kartu1, .kartu2, .kartu3 {
+    background: white;
+    border-radius: 24px;
+    width: 350px;
+    box-shadow: 0 30px 3px rgba(238, 17, 17, 0.03);
+    padding: 40px; 
+}
+
+/* --- kutipan --- */
+.kotak-kutipan {
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+    border: 1.5px solid #FFE4E6;
+    border-radius: 24px;
+    background: white;
+}
+
+.teks-kutipan {
+    font-style: italic;
+    font-size: 18px;
+    color: #4B5563;
+    margin-bottom: 15px !important; /* Force margin agar tidak nempel */
+}
+
+.penulis-kutipan {
+    font-weight: 700;
+    color: #1F2937;
+}
+
+/* --- footer --- */
+.isifooter {
+    background: white;
+    padding: 80px 10% 40px;
+    border-top: 1px solid #F3F4F6;
+}
+
+.konten-kaki {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.kolom-kaki {
+    flex: 1;
+    min-width: 200px;
+    justify-content: space-between;
+}
+
+.brand-kaki {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.nama-brand {
+    font-weight: 800;
+    font-size: 24px;
+    color: #E11D48;
+}
+
+.judul-kolom {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    color: #111827;
+    letter-spacing: 1px;
+}
+
+.daftar-tautan {
+    list-style: none;
+    text-decoration: none;
+    
+}
+.info-sekolah{
+    text-decoration: none;
+    color: #6B7280;
+    display: block;
+    margin-bottom: 12px;
+    transition: 0.3s;
+}
+
+.kontak-sekolah{
+    text-decoration: none;
+    color: #6B7280;
+    display: block;
+    margin-bottom: 12px;
+    transition: 0.3s;
+}
+.daftar-tautan li a {
+    text-decoration: none;
+    color: #6B7280;
+    display: block;
+    margin-bottom: 12px;
+    transition: 0.3s;
+}
+
+.daftar-tautan li a:hover {
+    color: #E11D48;
+}
+
+.sosial-media {
+    display: flex;
+    gap: 30px;
+}
+
+.kotak-ikon {
+    text-decoration: none;
+    background: #F3F4F6;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}

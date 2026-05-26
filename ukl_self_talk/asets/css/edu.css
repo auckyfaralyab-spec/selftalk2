@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #f8fafc;
+    min-height: 100vh;
+    padding-bottom: 100px;
+}
+
+.container{
+    width: 100%;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.header-edukasi {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header-edukasi h1 {
+    font-size: 24px;
+    color: #1e293b;
+    font-weight: 700;
+}
+
+.header-edukasi p {
+    font-size: 13px;
+    color: #64748b;
+    margin-top: 6px;
+    line-height: 1.6;
+}
+
+.search-form {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.search-input {
+    flex: 1;
+    padding: 13px 20px;
+    border: 1px solid #e2e8f0;
+    border-radius: 30px;
+    font-size: 14px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.01);
+    outline: none;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.search-input:focus {
+    border-color: #cbd5e1;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+}
+
+.btn-semua {
+    background-color: #4f46e5;
+    color: #ffffff;
+    padding: 12px 26px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(79, 70, 229, 0.2);
+    transition: background 0.2s;
+}
+
+.btn-semua:hover {
+    background-color: #4338ca;
+}
+
+.card-artikel {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.01);
+    border: 1px solid #f1f5f9;
+}
+
+.badge-kategori {
+    background-color: #e0e7ff;
+    color: #4338ca;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 5px 12px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    display: inline-block;
+}
+
+.judul-artikel {
+    color: #1e293b;
+    font-size: 18px;
+    margin: 12px 0 8px 0;
+    font-weight: 700;
+}
+
+.isi-artikel {
+    color: #475569;
+    font-size: 13px;
+    line-height: 1.7;
+    font-weight: 500;
+}
+
+.sumber-artikel {
+    margin-top: 14px;
+    font-size: 11px;
+    color: #94a3b8;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.sumber-link {
+    color: #4f46e5;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.pustaka-kosong {
+    text-align: center;
+    padding: 50px 20px;
+    background: #ffffff;
+    border-radius: 20px;
+    border: 2px dashed #e2e8f0;
+    max-width: 650px;
+    margin: 30px auto;
+}
+
+.pustaka-kosong h3 {
+    font-size: 18px;
+    color: #1e293b;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.pustaka-kosong p {
+    font-size: 13px;
+    color: #64748b;
+    margin-bottom: 20px;
+}
+
+.btn-reset {
+    display: inline-block;
+    background-color: #f1f5f9;
+    color: #475569;
+    padding: 10px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    transition: background 0.2s;
+}
+
+.btn-reset:hover {
+    background-color: #e2e8f0;
+}

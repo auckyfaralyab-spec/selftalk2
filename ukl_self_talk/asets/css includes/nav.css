@@ -1,0 +1,49 @@
+/* --- BAR NAV BAWAH --- */
+.nav-bawah {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 999;
+    border-top: 1px solid #eeeeee;
+}
+
+/* --- ITEM MENU (LINK) --- */
+.nav-bawah .nav-item {
+    display: flex;
+    flex-direction: column; /* Membuat gambar di atas, teks di bawah */
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #888888; /* Warna abu-abu standar saat tidak aktif */
+    width: 25%; /* Membagi 4 menu sama rata (100% / 4) */
+    text-align: center;
+}
+
+/* --- ICON GAMBAR --- */
+.nav-bawah .nav-item img {
+    width: 24px; /* Ukuran pas untuk ikon menu HP */
+    height: 24px;
+    margin-bottom: 2px;
+    display: block;
+    object-fit: contain;
+}
+
+/* --- TULISAN MENU --- */
+.nav-bawah .nav-item span {
+    font-size: 11px;
+}
+
+/* --- KONDISI MENU AKTIF (DIKLIK) --- */
+.nav-bawah .nav-item.active {
+    color: #e3242b; /* Teks otomatis berubah jadi merah Skomda */
+}
+
+.nav-bawah .nav-item.active span {
+    font-weight: bold; /* Teks menu yang aktif jadi lebih tebal */
+}
